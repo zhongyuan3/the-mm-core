@@ -1,0 +1,14 @@
+[package]
+name = "the-mm-core"
+version = "0.1.0"
+edition = "2024"
+description = "Shared physical address and page-frame primitives for the the-* memory allocators"
+license = "MIT"
+repository = "https://github.com/zhongyuan3/the-mm-core"
+readme = "README.md"
+documentation = "https://docs.rs/the-mm-core"
+keywords = ["no-std", "memory-allocator", "physical-memory", "pfn"]
+categories = ["no-std", "memory-management"]
+rust-version = "1.85"
+
+[dependencies]
